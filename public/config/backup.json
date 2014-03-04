@@ -1,0 +1,201 @@
+{
+    "setSchedule": {
+    	"scheduleMain": "DEABC",
+        "scheduleRepeat": "DABC"
+    },
+
+    "globalConfig": {
+        "sessionTime": 30000,
+        "podBinSize1": 10,
+        "podBinSize2": 5,
+        "podBinSize3": 3,
+        "globalModifierCamSpeed": 5.0,
+        "nlevelSpeedModifier": 1.0
+    },
+    
+    "Arep1": {
+	"stageTime" : 120,
+        "stageTotalSignals": 300,
+        "stageTotalTargetsVariance": 0,
+        "startingHP": 0,
+        "HPPositiveLimit": 3,
+        "HPNegativeLimit": -5,
+        "HPPositiveCorrectAnswer": 1,
+        "HPNegativeCorrectAnswer": 1,
+        "HPPositiveWrongAnswer": -1,
+        "HPNegativeWrongAnswer": -1,
+        "HPPositiveDistractor": 0,
+        "HPNegativeDistractor": 0
+    },
+
+    "Arep2": {
+	"stageTime" : 120,
+        "stageTotalSignals": 300,
+        "stageTotalTargetsVariance": 0,
+        "startingHP": 0,
+        "HPPositiveLimit": 5,
+        "HPNegativeLimit": -5,
+        "HPPositiveCorrectAnswer": 1,
+        "HPNegativeCorrectAnswer": 1,
+        "HPPositiveWrongAnswer": -1,
+        "HPNegativeWrongAnswer": -1,
+        "HPPositiveDistractor": 0,
+        "HPNegativeDistractor": 0
+    },
+    
+    "Arep3": {
+	"stageTime" : 120,
+        "stageTotalSignals": 300,
+        "stageTotalTargetsVariance": 0,
+        "startingHP": 0,
+        "HPPositiveLimit": 8,
+        "HPNegativeLimit": -5,
+        "HPPositiveCorrectAnswer": 1,
+        "HPNegativeCorrectAnswer": 1,
+        "HPPositiveWrongAnswer": -1,
+        "HPNegativeWrongAnswer": -1,
+        "HPPositiveDistractor": 0,
+        "HPNegativeDistractor": 0
+    },
+
+    "Brep1": {
+	"stageTime" : 120,
+        "stageTotalSignals": 300,
+        "stageTotalTargetsVariance": 0,
+        "startingHP": 0,
+        "HPPositiveLimit": 3,
+        "HPNegativeLimit": -5,
+        "HPPositiveCorrectAnswer": 1,
+        "HPNegativeCorrectAnswer": 1,
+        "HPPositiveWrongAnswer": -1,
+        "HPNegativeWrongAnswer": -1,
+        "HPPositiveDistractor": 0,
+        "HPNegativeDistractor": 0
+    },
+
+    "Brep2": {
+	"stageTime" : 120,
+        "stageTotalSignals": 300,
+        "stageTotalTargetsVariance": 0,
+        "startingHP": 0,
+        "HPPositiveLimit": 5,
+        "HPNegativeLimit": -5,
+        "HPPositiveCorrectAnswer": 1,
+        "HPNegativeCorrectAnswer": 1,
+        "HPPositiveWrongAnswer": -1,
+        "HPNegativeWrongAnswer": -1,
+        "HPPositiveDistractor": 0,
+        "HPNegativeDistractor": 0
+    },
+    
+    "Brep3": {
+	"stageTime" : 120,
+        "stageTotalSignals": 300,
+        "stageTotalTargetsVariance": 0,
+        "startingHP": 0,
+        "HPPositiveLimit": 8,
+        "HPNegativeLimit": -5,
+        "HPPositiveCorrectAnswer": 1,
+        "HPNegativeCorrectAnswer": 1,
+        "HPPositiveWrongAnswer": -1,
+        "HPNegativeWrongAnswer": -1,
+        "HPPositiveDistractor": 0,
+        "HPNegativeDistractor": 0
+    },
+
+    "Crep1": {
+	"stageTime" : 120,
+        "stageTotalSignals": 300,
+        "stageTotalTargetsVariance": 0,
+        "startingHP": 0,
+        "HPPositiveLimit": 3,
+        "HPNegativeLimit": -5,
+        "HPPositiveCorrectAnswer": 1,
+        "HPNegativeCorrectAnswer": 1,
+        "HPPositiveWrongAnswer": -1,
+        "HPNegativeWrongAnswer": -1,
+        "HPPositiveDistractor": 0,
+        "HPNegativeDistractor": 0
+    },
+
+    "Crep2": {
+	"stageTime" : 120,
+        "stageTotalSignals": 300,
+        "stageTotalTargetsVariance": 0,
+        "startingHP": 0,
+        "HPPositiveLimit": 5,
+        "HPNegativeLimit": -5,
+        "HPPositiveCorrectAnswer": 1,
+        "HPNegativeCorrectAnswer": 1,
+        "HPPositiveWrongAnswer": -1,
+        "HPNegativeWrongAnswer": -1,
+        "HPPositiveDistractor": 0,
+        "HPNegativeDistractor": 0
+    },
+    
+    "Crep3": {
+	"stageTime" : 120,
+        "stageTotalSignals": 300,
+        "stageTotalTargetsVariance": 0,
+        "startingHP": 0,
+        "HPPositiveLimit": 8,
+        "HPNegativeLimit": -5,
+        "HPPositiveCorrectAnswer": 1,
+        "HPNegativeCorrectAnswer": 1,
+        "HPPositiveWrongAnswer": -1,
+        "HPNegativeWrongAnswer": -1,
+        "HPPositiveDistractor": 0,
+        "HPNegativeDistractor": 0
+    },
+
+    "D": {
+        "stageTotalSignals": 0,
+        "stageTotalTargets1": 0,
+        "stageTotalTargets2": 0,
+        "stageTotalTargets3": 0,
+        "stageTotalTargetsVariance": 0,
+        "minCamSpeed": 5,
+        "maxCamSpeed": 100,
+        "stageTime": 60.0,
+        "startingHP": 5,
+        "HPPositiveLimit": 5,
+        "HPNegativeLimit": 0,
+        "HPPositiveCorrectAnswer": 0,
+        "HPNegativeCorrectAnswer": 0,
+        "HPPositiveWrongAnswer": -1,
+        "HPNegativeWrongAnswer": -1,
+        "HPPositiveDistractor": -1,
+        "HPNegativeDistractor": -1
+    },
+    
+    "E": {
+        "stageTotalTargetsVariance": 2,
+        "minCamSpeed": 5.0,
+        "maxCamSpeed": 100.0,
+        "stageTime": 180.0
+    },
+
+    "F": {
+        "stageTotalCollections": 10,
+        "stageTotalSignals": 0,
+        "stageTotalTargets1": 0,
+        "stageTotalTargets2": 0,
+        "stageTotalTargets3": 0,
+        "stageTotalTargetsVariance": 0,
+        "stageTotalDistractorsMin": 0,
+        "stageTotalDistractorsMax": 0,
+        "minCamSpeed": 10.0,
+        "maxCamSpeed": 10.0,
+        "initCamSpeed": 10.0,
+        "stageTime": 60.0,
+        "startingHP": 1,
+        "HPPositiveLimit": 1,
+        "HPNegativeLimit": 0,
+        "HPPositiveCorrectAnswer": 0,
+        "HPNegativeCorrectAnswer": 0,
+        "HPPositiveWrongAnswer": 0,
+        "HPNegativeWrongAnswer": 0,
+        "HPPositiveDistractor": 0,
+        "HPNegativeDistractor": 0
+    }
+}
