@@ -12,10 +12,29 @@ app.get('/', function(req,res) {
     res.send("Response!");
 });
 
+app.get('/listlogs/:user', function(req, res) {
+    util.log("GET received at /listlogs/" + req.params.user);
+
+    //Get all FILES in users log directory
+    var files = [];
+    var dirpath = __dirname + "/logs/" + req.params.user;
+    fs.readdir(dirpath, function(err, candidates) {
+        if (err) {
+            res.send(500, "User logs don't exist");
+        } else {
+            for (var i = 0; i < candidates.length; ++i) {
+                var filepath = dirpath + "/" + candidates[i];
+                if(!fs.statSync(filepath).isDirectory()) {
+                    files.push(candidates[i]);
+                }
+            }
+            res.send(JSON.stringify({ files: files}));
+        }
+    });
+});
+
 app.post('/log/:user', function(req, res) {
-    console.log("POST at logging " + req.params.user);
     util.log("POST received at /log/" + req.params.user);
-    //res.send(500, "Shit");
     
     var dirpath = __dirname + "/logs/" + req.params.user;
     mkdirp(dirpath, 0755, function(err) {
